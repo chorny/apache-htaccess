@@ -240,9 +240,17 @@ with your parameters. see L<add_global_require()>.
 sub global_requires {
 	undef $ERROR;
 	my $self = shift;
-	@_ ? @{$self->{GLOBAL_REQ}} = @_
-	   : defined(@{$self->{GLOBAL_REQ}}) ? return @{$self->{GLOBAL_REQ}}
-	   							: return 0;
+	
+	if( @_ ) {
+		@{$self->{GLOBAL_REQ}} = @_
+		}
+	elsif( @{$self->{GLOBAL_REQ}} ) {
+		return @{$self->{GLOBAL_REQ}}
+		}
+	else {
+		return 0;
+		}
+
 	return 1;
 }
 
