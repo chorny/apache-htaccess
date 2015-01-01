@@ -376,8 +376,11 @@ This module is in GitHub:
 
 =head1 AUTHOR 
 
-Matt Cashner <matt@cre8tivegroup.com> originally created this module,
-and brian d foy <bdfoy@cpan.org> currently maintains it.
+Matt Cashner <matt@cre8tivegroup.com> originally created this module.
+brian d foy <bdfoy@cpan.org> maintained it for a long time.
+
+Now this module has no maintainer. You can takeover maintenance by
+writing to modules@perl.org.
 
 =head1 COPYRIGHT
 
