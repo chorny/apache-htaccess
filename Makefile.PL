@@ -43,6 +43,6 @@ WriteMakefile(
 		'lib/Htaccess.pm'  => '$(INST_LIBDIR)/Htaccess.pm',
 		},
     PREREQ_PM		=> {}, 
-	AUTHOR        	=> 'brian d foy <bdfoy@cpan.org>',
+	AUTHOR        	=> 'Matt Cashner <matt@cre8tivegroup.com>',
 	ABSTRACT        => 'Create and manipulate Apache .htaccess files',
 	);
