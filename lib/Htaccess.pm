@@ -368,6 +368,12 @@ sub add_directive {
 
 * rewrite the parser to handle blocks
 
+=head1 SOURCE CODE
+
+This module is in GitHub:
+
+	https://github.com/CPAN-Adopt-Me/apache-htaccess.git
+
 =head1 AUTHOR 
 
 Matt Cashner <matt@cre8tivegroup.com> originally created this module,
