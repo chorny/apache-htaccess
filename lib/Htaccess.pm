@@ -45,7 +45,7 @@ use vars qw($VERSION $ERROR);
 
 use Carp;
 
-( $VERSION ) = '$Revision: 1.4 $ ' =~ /\$Revision:\s+([^\s]+)/;
+( $VERSION ) = '1.5';
 
 #####################################################
 # parse
