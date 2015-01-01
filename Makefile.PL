@@ -1,6 +1,19 @@
-# $Id: Makefile.PL,v 1.3 2002/02/28 11:44:10 comdog Exp $
-
 use ExtUtils::MakeMaker;
+
+print <<'HERE';
+=====================================================================
+             This module is looking for a maintainer!
+
+No one is maintaining this module, but you can take up its care
+and feeding by requesting CPAN persmissions from modules@perl.org.
+
+This version is assigned to the ADOPTME CPAN user and hosted in
+GitHub:
+
+	https://github.com/CPAN-Adopt-Me/apache-htaccess
+
+=====================================================================
+HERE
 
 my $text = eval { require Text::Diff };
 my $file = eval { require File::Copy };

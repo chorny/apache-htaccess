@@ -1,5 +1,3 @@
-# $Id: Htaccess.pm,v 1.4 2002/02/28 11:25:14 comdog Exp $
-
 =head1 NAME
 
 Apache::Htaccess - Create and modify Apache .htaccess files
