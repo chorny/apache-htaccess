@@ -45,4 +45,15 @@ WriteMakefile(
     PREREQ_PM		=> {}, 
 	AUTHOR        	=> 'Matt Cashner <matt@cre8tivegroup.com>',
 	ABSTRACT        => 'Create and manipulate Apache .htaccess files',
+
+	'META_MERGE' => {
+		'meta-spec' => { version => 2 },
+		resources => {
+			repository => {
+				type => 'git',
+				url  => 'https://github.com/CPAN-Adopt-Me/apache-htaccess',
+				web  => 'https://github.com/CPAN-Adopt-Me/apache-htaccess',
+				},
+			},
+		},
 	);
