@@ -9,7 +9,7 @@
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
-      "version" : "2"
+      "version" : "1.4"
    },
    "name" : "Apache-Htaccess",
    "prereqs" : {
@@ -33,5 +33,5 @@
          "web" : "https://github.com/archeac/apache-htaccess"
       }
    },
-   "version" : "1.6"
+   "version" : "1.6.1"
 }

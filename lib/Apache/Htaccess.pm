@@ -45,7 +45,7 @@ use vars qw($VERSION $ERROR);
 
 use Carp;
 
-( $VERSION ) = '1.6';
+( $VERSION ) = '1.6.1';
 
 #####################################################
 # parse

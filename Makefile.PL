@@ -16,7 +16,7 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Apache::Htaccess",
   "PREREQ_PM" => {},
-  "VERSION" => "1.6",
+  "VERSION" => "1.6.1",
   "test" => {
     "TESTS" => "t/*.t"
   },
