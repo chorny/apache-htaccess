@@ -13,3 +13,7 @@ meta-spec:
   version: '1.4'
 name: Apache-Htaccess
 version: '1.6'
+resources:
+  bugtracker: https://github.com/archeac/apache-htaccess/issues
+  license: http://www.opensource.org/licenses/artistic-license-2.0
+  repository: https://github.com/archeac/apache-htaccess
