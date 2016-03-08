@@ -19,6 +19,13 @@ my %WriteMakefileArgs = (
   "VERSION" => "1.6",
   "test" => {
     "TESTS" => "t/*.t"
+  },
+  META_ADD => {
+    resources => {
+        homepage => 'https://github.com/archeac/apache-htaccess',
+        repository => 'git@github.com:archeac/apache-htaccess.git',
+        bugtracker => 'https://github.com/archeac/apache-htaccess/issues'
+    }
   }
 );
 
@@ -34,5 +41,9 @@ unless ( eval { ExtUtils::MakeMaker->VERSION(6.63_03) } ) {
 
 delete $WriteMakefileArgs{CONFIGURE_REQUIRES}
   unless eval { ExtUtils::MakeMaker->VERSION(6.52) };
+
+unless(eval { ExtUtils::MakeMaker->VERSION(6.46) } ) {
+    delete $WriteMakefileArgs{META_ADD};
+}
 
 WriteMakefile(%WriteMakefileArgs);
