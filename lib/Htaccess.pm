@@ -156,6 +156,7 @@ my $deparse = sub (\$) {
 
 
 ##########################################################
+=back
 
 =head2 B<new()>
 
@@ -370,29 +371,29 @@ sub add_directive {
 
 1;
 
-=back
 
 =head1 TO DO
 
 * rewrite the parser to handle blocks
+* improve documentation
+* Oracale iPlanet htaccess parser
 
 =head1 SOURCE CODE
 
 This module is in GitHub:
 
-	https://github.com/CPAN-Adopt-Me/apache-htaccess.git
+	https://github.com/archeac/apache-htaccess.git
 
 =head1 AUTHOR 
 
 Matt Cashner <matt@cre8tivegroup.com> originally created this module.
 brian d foy <bdfoy@cpan.org> maintained it for a long time.
 
-Now this module has no maintainer. You can takeover maintenance by
-writing to modules@perl.org.
+Now this module is maintained by Arun Venkataraman <arun@cpan.org>
 
 =head1 COPYRIGHT
 
-Copyright (C) 2000 by The Creative Group. 
+Copyright (C) 2016 Arun Venkataraman
 
 This module may be distributed under the terms of Perl itself.	
 
